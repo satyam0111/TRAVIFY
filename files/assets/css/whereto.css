@@ -1,0 +1,9 @@
+.new{
+    position: relative;
+}
+
+.container_new{
+    position: absolute;
+    top: 230px;
+    left: 230px;
+}

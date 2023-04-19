@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'travify-icon';
+  src:  url('../fonts/tripo-icon.eot?uzh45i');
+  src:  url('../fonts/tripo-icon.eot?uzh45i#iefix') format('embedded-opentype'),
+    url('../fonts/tripo-icon.ttf?uzh45i') format('truetype'),
+    url('../fonts/tripo-icon.woff?uzh45i') format('woff'),
+    url('../fonts/tripo-icon.svg?uzh45i#tripo-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="travify-icon-"], [class*=" travify-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'travify-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.travify-icon-squares:before {
+  content: "\e913";
+}
+.travify-icon-list-menu:before {
+  content: "\e914";
+}
+.travify-icon-plus-symbol:before {
+  content: "\e912";
+}
+.travify-icon-message:before {
+  content: "\e900";
+}
+.travify-icon-phone-call:before {
+  content: "\e901";
+}
+.travify-icon-placeholder:before {
+  content: "\e902";
+}
+.travify-icon-suitcase:before {
+  content: "\e903";
+}
+.travify-icon-plane-ticket:before {
+  content: "\e904";
+}
+.travify-icon-hang-gliding:before {
+  content: "\e905";
+}
+.travify-icon-paragliding:before {
+  content: "\e906";
+}
+.travify-icon-sunset:before {
+  content: "\e907";
+}
+.travify-icon-deer:before {
+  content: "\e908";
+}
+.travify-icon-flag:before {
+  content: "\e909";
+}
+.travify-icon-left-arrow:before {
+  content: "\e90a";
+}
+.travify-icon-right-arrow:before {
+  content: "\e90b";
+}
+.travify-icon-feedback:before {
+  content: "\e90c";
+}
+.travify-icon-user-experience:before {
+  content: "\e90d";
+}
+.travify-icon-reliability:before {
+  content: "\e90e";
+}
+.travify-icon-tour-guide:before {
+  content: "\e90f";
+}
+.travify-icon-avatar:before {
+  content: "\e910";
+}
+.travify-icon-magnifying-glass:before {
+  content: "\e911";
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/register.css">
+    <title>Register</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:200,300,400,400i,500,600,700,800,900%7CSatisfy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class = "container">
+        <div class="image">
+            <img src="assets/images/backgrounds/banner-2-bg-3.jpg" >
+        </div>
+        <div class = "register-container">
+            
+            <div>
+                <span class = "register-span">Register</span>
+            </div>
+            
+
+            <form onsubmit = "signup(event)" class = "form-container">
+                <div>
+                    <input type = "text" placeholder = "Enter Your Firstname" id = "firstname">
+                    <!-- <img src = "username-bar.jpg" class = "username-bar"> -->
+                </div>
+                <div>
+                    <input type = "text" placeholder = "Enter Your Lastname" id = "lastname">
+                    <!-- <img src = "username-bar.jpg" class = "username-bar"> -->
+                </div>
+                <div>
+                    <input type = "email" placeholder = "Enter Your Email" id = "email">
+                    <!-- <img src = "username-bar.jpg" class = "username-bar"> -->
+                </div>
+                <div>
+                    <input type = "password" placeholder = "Enter Your Password" id = "password">
+                    <!-- <img src = "username-bar.jpg" class = "username-bar"> -->
+                </div>
+    
+        
+                <button value = "Sign up" id = "sinupinp">Register</button>
+                <div class = "member">
+                    <br><br><br><br>Already A Member? <a href = "login.html"><br><br>Login Here!</a>
+                </div>
+            </form>
+
+
+
+            
+        </div>
+    </div>
+    <script src = "assets/js/register.js" type = "module"></script>
+</body>
+</html>
